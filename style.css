@@ -149,6 +149,11 @@ header span a {
 
 @media screen and (max-width: 600px) {
     /*index*/
+    .container {
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+    }
     /*compliment*/
     .compliment-container {
         margin-left: 2%;
