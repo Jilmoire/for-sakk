@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <span>Everyday I keep liking you more and more.</span>
+        <div>I don't even know what to do about it.</div>
+        <hr>
+        <div>
+            <span><a href="index.html">->Home<-</a></span>
+            <span><a href="compliment.html">->Poem<-</a></span>
+            <span><a href="message.html">->Letter<-</a></span>
+        </div>
+    </header>
+
+    <div class="container" id="welcome-container">
+        <img id="welcome-gif" src="Assets/Pictures/hello-hug.gif">
+        <span class="welcome-text" id="greeting">Hello Sakura!</span>
+        <span class="welcome-text" id="1">I hope today went just as you planned!</span>
+        <span class="welcome-text" id="2">Hoping that today's events brought you happiness. <3</span>
+        <span class="welcome-text" id="3">Please always tell me about your day!</span>
+        <img src="Assets/Pictures/hearto.png" id="next-page">
+
+    </div>
+
+    <script type="text/javascript">
+        document.getElementById("next-page").onclick = function () {
+            location.href = "compliment.html";
+        };
+    </script>
+</body>
+</html>

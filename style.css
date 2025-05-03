@@ -1,0 +1,181 @@
+
+/* Lavander : #9f40ff; */
+/* Light Pink : #ff91f8; */
+    
+* {
+    background-color: #ff91f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    padding-top: 5rem;
+}
+#next-page {
+    margin-top: 1rem;
+    width: 5rem;
+    border: #9f40ff 0.2rem solid;
+    padding: 5px;
+    border-radius: 1rem;
+}
+header {
+    display: block;
+    width: 90%;
+    padding: 0.4rem;
+    text-align: center;
+    background-color: aliceblue;
+    border: #9f40ff 0.2rem solid;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+header span {
+    background-color: transparent;
+}
+header div {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+header span a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #ff91f8;
+}
+
+/*index html styling*/
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: azure;
+    border: black 0.2rem solid;
+    border-radius: 1rem;
+}
+.container .welcome-text {
+    background-color: transparent;
+    padding: 0.1rem;
+}
+.container .welcome-text#greeting {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/*compliment html styling*/
+.personal-message {
+    padding: 1rem;
+    background-color: azure;
+    border: #9f40ff solid 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.compliment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    border: #9f40ff solid 0.2rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+.compliment {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+.compliment-message {
+    background-color: transparent;
+}
+
+/*message html styling*/
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    border: #9f40ff solid 0.2rem;
+    border-radius: 1rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+.message {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+}
+.message#greeting {
+    display: block;
+    margin-right: 85%;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.signatures {
+    display: block;
+    margin-left: 90%;
+    background-color: transparent;
+}
+#signature {
+    display: block;
+    text-align: right;
+    background-color: transparent;
+}
+#signature2 {
+    display: block;
+    text-align: right;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    /*index*/
+    /*compliment*/
+    .compliment-container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .compliment {
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    /*message*/
+    .message-container {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 10rem;
+    }
+    .message#greeting {
+        display: block;
+        margin-right: 40%;
+        padding-left: 0;
+    }
+    .signatures {
+        display: block;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 70%;
+        margin-bottom: 1rem;
+    }
+}
